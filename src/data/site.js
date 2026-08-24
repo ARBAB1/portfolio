@@ -293,3 +293,203 @@ export const certifications = [
   { name: "Blockchain Certification", issuer: "IBM (Alison)" },
   { name: "Linux Certification", issuer: "Cisco Networking Academy" },
 ];
+
+// ---------------------------------------------------------------------------
+// Open-source repositories, grouped. Rendered as a compact index below the
+// featured project cards so breadth is visible without crowding the flagships.
+// ---------------------------------------------------------------------------
+
+export const collections = [
+  {
+    title: "Platforms & dashboards",
+    blurb: "Multi-module business systems with authentication, reporting and admin tooling.",
+    items: [
+      {
+        name: "CrewLink Portal",
+        desc: "Airline crew management — regions, subscribers, reporting",
+        repo: "https://github.com/ARBAB1/Crewlink-Portal",
+        live: "https://crewlink-portal.vercel.app",
+        tech: "Next.js · TypeScript",
+      },
+      {
+        name: "Restaurant Management System",
+        desc: "HR, payroll, attendance, inventory and orders",
+        repo: "https://github.com/ARBAB1/Resturant-management-system-Frontend",
+        live: "https://resturant-management-system-frontend.vercel.app",
+        tech: "Next.js · TypeScript",
+      },
+      {
+        name: "Clayton Real Estate",
+        desc: "Company and property management with KPI reporting",
+        repo: "https://github.com/ARBAB1/claytonRealEstate",
+        live: "https://clayton-real-estate.vercel.app",
+        tech: "Next.js · TypeScript",
+      },
+      {
+        name: "Project Management Suite",
+        desc: "Kanban boards, workspaces, activity feeds, invitations",
+        repo: "https://github.com/ARBAB1/trello-updated-project",
+        live: "https://trello-project-management-tool-front-end.vercel.app",
+        tech: "Next.js · Redux Toolkit",
+      },
+      {
+        name: "WOF Marketplace",
+        desc: "Multi-vendor commerce with customer, seller and admin views",
+        repo: "https://github.com/ARBAB1/wof-frontend",
+        tech: "React · Stripe · PayPal",
+      },
+      {
+        name: "Launch Pad",
+        desc: "Agency project and sales system with per-person workloads",
+        repo: "https://github.com/ARBAB1/launch-pad",
+        live: "https://launch-pad-one-coral.vercel.app",
+        tech: "JavaScript · Firebase",
+      },
+      {
+        name: "School Management System",
+        desc: "Academic administration portal with email notifications",
+        repo: "https://github.com/ARBAB1/sms",
+        tech: "Next.js · Ant Design",
+      },
+      {
+        name: "Document Approval",
+        desc: "Document approval workflow backed by Firebase",
+        repo: "https://github.com/ARBAB1/Doc-Approval-Website",
+        tech: "Next.js · Firebase",
+      },
+    ],
+  },
+  {
+    title: "Mobile applications",
+    blurb: "Cross-platform apps shipped to Android and iOS.",
+    items: [
+      {
+        name: "Clayton Mobile",
+        desc: "Role-based rental estate app for owners and tenants",
+        repo: "https://github.com/ARBAB1/clayton_rental_estate_flutter_mobile_app",
+        tech: "Flutter · Dart",
+      },
+      {
+        name: "Bartinder",
+        desc: "Social bar booking with push notifications and geolocation",
+        repo: "https://github.com/ARBAB1/Bartender-App-Frontend",
+        tech: "React Native · Firebase",
+      },
+      {
+        name: "Wallet App",
+        desc: "Digital wallet with OTP auth and transaction tracking",
+        repo: "https://github.com/ARBAB1/Wallet-App",
+        tech: "React Native · Redux",
+      },
+      {
+        name: "Blood Donation",
+        desc: "Connects blood donors with recipients",
+        repo: "https://github.com/ARBAB1/blood_donation_react_native_application",
+        tech: "React Native",
+      },
+    ],
+  },
+  {
+    title: "Backends & APIs",
+    blurb: "Node.js services with JWT authentication and relational storage.",
+    items: [
+      {
+        name: "Clayton Estate API",
+        desc: "JWT auth, MySQL, Express — powers the estate platform",
+        repo: "https://github.com/ARBAB1/clayton_rental_estate_backend",
+        tech: "Node.js · Express · MySQL",
+      },
+      {
+        name: "Restaurant Inventory API",
+        desc: "REST API with file uploads backing the restaurant system",
+        repo: "https://github.com/ARBAB1/resturant-inventory-project",
+        tech: "Node.js · Express · MySQL",
+      },
+      {
+        name: "Internet Speed API",
+        desc: "Speedtest wrapper with geo-IP lookup",
+        repo: "https://github.com/ARBAB1/internet-speed-backend",
+        tech: "Node.js · Express",
+      },
+    ],
+  },
+  {
+    title: "Marketing & brand sites",
+    blurb: "Animation-led corporate sites, including bilingual RTL builds.",
+    items: [
+      {
+        name: "Fintechify",
+        desc: "Corporate fintech site with maps and animated statistics",
+        repo: "https://github.com/ARBAB1/fintechify-english-website",
+        tech: "Next.js · Bootstrap",
+      },
+      {
+        name: "Fintechify (Arabic)",
+        desc: "Full RTL Arabic build of the Fintechify site",
+        repo: "https://github.com/ARBAB1/fintechify-arabic-version-website",
+        tech: "Next.js · RTL",
+      },
+      {
+        name: "Loading Logo",
+        desc: "Creative studio site with Framer Motion transitions",
+        repo: "https://github.com/ARBAB1/loadinglogo_website",
+        live: "https://loadinglogo-website.vercel.app",
+        tech: "Next.js · Framer Motion",
+      },
+      {
+        name: "Ronasit",
+        desc: "Agency site with GSAP and Locomotive smooth scrolling",
+        repo: "https://github.com/ARBAB1/Ronasit",
+        tech: "Next.js · GSAP",
+      },
+      {
+        name: "Evodesign",
+        desc: "Design agency site with parallax and video backgrounds",
+        repo: "https://github.com/ARBAB1/evodesign",
+        tech: "Next.js · styled-components",
+      },
+      {
+        name: "Smart Star",
+        desc: "Corporate site with forms, reCAPTCHA and animated stats",
+        repo: "https://github.com/ARBAB1/smartstar-website",
+        tech: "Next.js · Formik",
+      },
+      {
+        name: "NFL Foundation",
+        desc: "Foundation marketing site",
+        repo: "https://github.com/ARBAB1/NFL-website",
+        tech: "Next.js · Bootstrap",
+      },
+    ],
+  },
+  {
+    title: "Tools & extensions",
+    blurb: "Small utilities and browser extensions built to solve daily friction.",
+    items: [
+      {
+        name: "USA State Time",
+        desc: "Chrome extension showing US state timezones at a glance",
+        repo: "https://github.com/ARBAB1/USA-State-Time-Extension",
+        tech: "Chrome Extension",
+      },
+      {
+        name: "Currency Exchange Rates",
+        desc: "Chrome extension for live currency conversion",
+        repo: "https://github.com/ARBAB1/Currency-Exchange-Rates-Chrome-Extension",
+        tech: "Chrome Extension",
+      },
+      {
+        name: "Internet Speed Test",
+        desc: "Download, upload and latency measurement UI",
+        repo: "https://github.com/ARBAB1/internet-speed-frontend",
+        tech: "React · TypeScript",
+      },
+      {
+        name: "Responsive Landing Page",
+        desc: "Hand-coded responsive page, no framework",
+        repo: "https://github.com/ARBAB1/Single-responsive-web-page-assignment",
+        tech: "HTML · CSS",
+      },
+    ],
+  },
+];

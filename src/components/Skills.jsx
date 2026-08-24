@@ -6,7 +6,7 @@ export default function Skills() {
     <section id="skills" className="section">
       <div className="container-page">
         <Reveal>
-          <p className="eyebrow">04 — Toolkit</p>
+          <p className="eyebrow">05 — Toolkit</p>
           <h2 className="heading">Technologies I work with</h2>
         </Reveal>
 

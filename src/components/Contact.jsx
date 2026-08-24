@@ -43,7 +43,7 @@ export default function Contact() {
             />
 
             <div className="relative">
-              <p className="eyebrow justify-center after:hidden">05 — Contact</p>
+              <p className="eyebrow justify-center after:hidden">06 — Contact</p>
               <h2 className="heading mx-auto max-w-2xl">
                 Have a product to build, or a team to lead?
               </h2>
